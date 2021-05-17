@@ -3,7 +3,6 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     private final String UserName ="Admin";
     private final String PassWord = "DSC@Sastra";
     boolean isValid = false;
-    private int counter=5;
+   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
